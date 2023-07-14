@@ -1,0 +1,35 @@
+{
+  "name": "@tawasukha/fakesmtp",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Fake SMTP Server for Development Purpose",
+  "main": "./dist/index.js",
+  "bin": {
+    "fakesmtp": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Forte Zhuo",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mailparser": "^3.4.0",
+    "@types/smtp-server": "^3.5.7",
+    "chalk": "^5.3.0",
+    "cli-html": "^4.0.1",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "mailparser": "^3.6.5",
+    "smtp-server": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.4.2",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
