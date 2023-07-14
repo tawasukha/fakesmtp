@@ -2,8 +2,12 @@
 
 Fake SMTP Server for Development Purpose
 
-## Usage
+## Installation
+```sh
+npm install -g @tawasukha/fakesmtp
+```
 
+## Usage
 ```sh
 fakesmtp [options] [port]
 ```
